@@ -38,13 +38,13 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 #### Python
    ```bash
    # Ejecutar directamente con el intérprete
-   python3 src/main.py
+   python3 main.py
    ```
 
 #### C
    ```bash
-   # Compilar para crear un archivo ejecutable
-   gcc src/main.c -o ejecutable_c
+   # Compilar para crear un ejecutable
+   gcc main.c -o ejecutable_c
 
    # Ejecutar el programa
    ./ejecutable_c
@@ -53,10 +53,10 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 #### Java
    ```bash
    # Compilar el código fuente a bytecode
-   javac src/Main.java
+   javac main.java
 
    # Ejecutar el bytecode con la JVM
-   java -cp src Main
+   java -cp main
    ```
 
 ## Desarrollo de la Actividad
