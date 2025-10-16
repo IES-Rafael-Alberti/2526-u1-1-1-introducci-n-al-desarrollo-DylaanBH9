@@ -64,22 +64,20 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 
 #### 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware
 
-Pregunta: Describe cómo el software que has creado se ha relacionado con los componentes físicos del dispositivo (memoria RAM, procesador, periféricos, etc.) durante la ejecución.
+1.   Python (Interpretado):
+   -  Memoria RAM: El intérprete de Python gestiona la memoria de forma automática. Cuando el usuario introducía su nombre y año.
+   -  Procesador: La CPU no ejecutó mi código Python directamente. Lo que hizo fue ejecutar las instrucciones del programa intérprete de Python. Este lee el código fuente línea por línea y lo traducía a comandos que el procesador pudiera entender en tiempo real.
+   -  Periféricos: El programa interactuó con el teclado para recibir el nombre y el año de nacimiento del usuario (input()) y con la pantalla para mostrar el resultado final (print()).
 
-   Python (Interpretado):
-       Memoria RAM: El intérprete de Python gestiona la memoria de forma automática. Cuando el usuario introducía su nombre y año.
-       Procesador: La CPU no ejecutó mi código Python directamente. Lo que hizo fue ejecutar las instrucciones del programa intérprete de Python. Este lee el código fuente línea por línea y lo traducía a comandos que el procesador pudiera entender en tiempo real.
-       Periféricos: El programa interactuó con el teclado para recibir el nombre y el año de nacimiento del usuario (input()) y con la pantalla para mostrar el resultado final (print()).
+2.   C (Compilado):
+   -  Memoria RAM: La gestión fue más manual. Al declarar variables como int edad; o char nombre[50];, se reservó un espacio fijo en la memoria. 
+   -  Procesador: El procesador ejecutó directamente el código máquina resultante de la compilación. A diferencia de Python, no hubo una capa intermedia. El compilador tradujo mi código C a instrucciones nativas que la CPU ejecutó a máxima velocidad.
+   -  Periféricos: Se usaron las funciones de la librería estándar scanf() y printf() para interactuar con el teclado y la pantalla. Estas funciones se comunican con el sistema operativo para leer desde el búfer del teclado y escribir en la consola.
 
-   C (Compilado):
-       Memoria RAM: La gestión fue más manual. Al declarar variables como int edad; o char nombre[50];, se reservó un espacio fijo en la memoria. 
-       Procesador: El procesador ejecutó directamente el código máquina resultante de la compilación. A diferencia de Python, no hubo una capa intermedia. El compilador tradujo mi código C a instrucciones nativas que la CPU ejecutó a máxima velocidad.
-       Periféricos: Se usaron las funciones de la librería estándar scanf() y printf() para interactuar con el teclado y la pantalla. Estas funciones se comunican con el sistema operativo para leer desde el búfer del teclado y escribir en la consola.
-
-   Java (Máquina Virtual):
-       Memoria RAM: La JVM se encargó de toda la gestión de memoria. Ademas la JVM cuenta con un "Recolector de Basura" (Garbage Collector) que libera automáticamente la memoria que ya no se necesita.
-       Procesador: De forma similar a Python, el procesador no ejecutó mi código Java directamente. Ejecutó las instrucciones de la JVM. La JVM, a su vez, interpretó el bytecode de mi programa y lo tradujo a código máquina usando JIT compilation para que la CPU lo ejecutara.
-       Periféricos: Se utilizó la clase Scanner para leer la entrada del teclado y System.out.println() para imprimir en la pantalla.
+3.   Java (Máquina Virtual):
+   -  Memoria RAM: La JVM se encargó de toda la gestión de memoria. Ademas la JVM cuenta con un "Recolector de Basura" (Garbage Collector) que libera automáticamente la memoria que ya no se necesita.
+   -  Procesador: De forma similar a Python, el procesador no ejecutó mi código Java directamente. Ejecutó las instrucciones de la JVM. La JVM, a su vez, interpretó el bytecode de mi programa y lo tradujo a código máquina usando JIT compilation para que la CPU lo ejecutara.
+   -  Periféricos: Se utilizó la clase Scanner para leer la entrada del teclado y System.out.println() para imprimir en la pantalla.
 
 #### 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
 
@@ -144,9 +142,9 @@ Pregunta: Describe cómo el software que has creado se ha relacionado con los co
        Otras herramientas: La terminal para usar los comandos javac y java.
 
 ### Código Fuente
-- [Código Fuente Python] (./src/main.py)
-- [Código Fuente C] (./src/main.c)
-- [Código Fuente Java] (./src/Main.java)
+![Código Fuente Python] ./src/main.py
+![Código Fuente C] ./src/main.c
+![Código Fuente Java] ./src/Main.java
 
 ### Ejemplos de Ejecución
 
@@ -191,6 +189,5 @@ Este uno de los casos de prueba y este devuelve correctamente lo que tiene que d
 Esta práctica permite ver las diferencias entre los paradigmas de compilación e interpretación. El desarrollo en C aunque más rápido en ejecución requiere una compilación explícita pero acosta de la portabilidad. Python permite rapidez de desarrollo gracias a su interpretación directa. Y Java se sitúa en un punto intermedio, ofreciendo la portabilidad gracias a la JVM, a costa de un proceso de dos pasos compilación a bytecode y ejecución.
 
 ## Referencias y Fuentes
-- Documentación oficial de Python.
-- Documentación de GNU para el compilador GCC.
-- Documentación oficial de Oracle para Java.
+w3schools.com
+revilofe.github.io/section3/
