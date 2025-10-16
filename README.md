@@ -82,13 +82,13 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 #### 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
 
 1.  Lenguajes Compilados (C):
-    El código fuente main.c se transformó usando el compilador GCC. Al usar el comando gcc src/main.c -o ejecutable_c, el compilador tradujo el código fuente a código máquina y el enlazador lo unió a las librerías estándar para generar un único archivo ejecutable llamado ejecutable_c.
+  - El código fuente main.c se transformó usando el compilador GCC. Al usar el comando gcc src/main.c -o ejecutable_c, el compilador tradujo el código fuente a código máquina y el enlazador lo unió a las librerías estándar para generar un único archivo ejecutable llamado ejecutable_c.
 
 2.  Lenguajes Interpretados (Python):
-    El código fuente main.py se ejecutó directamente con el intérprete, usando el comando python3 main.py. No se generó ningún archivo de código objeto o ejecutable visible; el intérprete procesó el código en tiempo real.
+  - El código fuente main.py se ejecutó directamente con el intérprete, usando el comando python3 main.py. No se generó ningún archivo de código objeto o ejecutable visible; el intérprete procesó el código en tiempo real.
 
 3.  Lenguajes con Máquina Virtual (Java):
-    El código fuente main.java se transformó a un código intermedio llamado bytecode. El comando javac main.java generó el archivo main.class en la carpeta src. Este archivo no es ejecutable por sí mismo, sino que fue interpretado por la JVM con el comando java -cp src Main.
+  - El código fuente main.java se transformó a un código intermedio llamado bytecode. El comando javac main.java generó el archivo main.class en la carpeta src. Este archivo no es ejecutable por sí mismo, sino que fue interpretado por la JVM con el comando java -cp src Main.
 
 #### 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales
 
@@ -97,8 +97,8 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 
 2.  Rol de la Máquina Virtual (Java):
     La JVM actúa como una capa de abstracción entre el código y el hardware.
-       Portabilidad: Permite que el mismo archivo .class se ejecute en cualquier sistema operativo (Windows, macOS, Linux) que tenga una JVM instalada. Esto resuelve el problema de los lenguajes compilados como C, cuyo ejecutable solo funciona en el sistema para el que fue compilado.
-       Ejecución: La JVM lee el bytecode y lo traduce a código máquina nativo del sistema operativo. Esto es diferente de la ejecución directa de C (que ya es código máquina) y de la interpretación pura de Python (que traduce línea a línea desde el fuente).
+   -    Portabilidad: Permite que el mismo archivo .class se ejecute en cualquier sistema operativo (Windows, macOS, Linux) que tenga una JVM instalada. Esto resuelve el problema de los lenguajes compilados como C, cuyo ejecutable solo funciona en el sistema para el que fue compilado.
+   -    Ejecución: La JVM lee el bytecode y lo traduce a código máquina nativo del sistema operativo. Esto es diferente de la ejecución directa de C (que ya es código máquina) y de la interpretación pura de Python (que traduce línea a línea desde el fuente).
 
 #### 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación
 
@@ -106,7 +106,7 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 
 - Python: Interpretado, muy alto nivel, multiparadigma (imperativo, orientada a objetos, funcional)
 - C: Compilado, bajo/medio nivel, imperativo/procedural
-- Java: Híbrido (bytecode + interpretación/JIT), alto nivel, orientado a objetos
+- Java: Híbrido (bytecode + interpretación), alto nivel, orientado a objetos
 
 2.  Razones de la clasificación:
 
@@ -117,23 +117,23 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 
 #### 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
 
-   Python:
-       Sistema operativo: Linux Mint
-       Editor de texto o IDE: Geany
-       Intérprete: Se utilizó el intérprete de Python 3.12.3, que ejecutó el código directamente desde el archivo .py.
-       Depurador: No utilice.
-       Sistema de gestión de versiones: Git y GitHub.
-       Otras herramientas: La terminal para ejecutar el programa.
+1. Python:
+   -    Sistema operativo: Linux Mint
+   -    Editor de texto o IDE: Geany
+   -    Intérprete: Se utilizó el intérprete de Python 3.12.3, que ejecutó el código directamente desde el archivo .py.
+   -    Depurador: No utilice.
+   -    Sistema de gestión de versiones: Git y GitHub.
+   -    Otras herramientas: La terminal para ejecutar el programa.
 
-   C:
-       Sistema operativo: Linux Mint
-       Editor de texto o IDE: Geany
-       Compilador: Se utilizó el compilador GCC para transformar el código fuente .c en un archivo ejecutable.
-       Depurador: No utilice.
-       Sistema de gestión de versiones: Git y GitHub.
-       Otras herramientas: La terminal para compilar (gcc) y ejecutar el programa.
+2. C:
+   -    Sistema operativo: Linux Mint
+   -    Editor de texto o IDE: Geany
+   -    Compilador: Se utilizó el compilador GCC para transformar el código fuente .c en un archivo ejecutable.
+   -    Depurador: No utilice.
+   -    Sistema de gestión de versiones: Git y GitHub.
+   -    Otras herramientas: La terminal para compilar (gcc) y ejecutar el programa.
 
-   Java:
+3. Java:
        Sistema operativo: Linux Mint
        Editor de texto o IDE: Geany
        Compilador/Intérprete: Se utilizó el JDK , que incluye el compilador javac para generar el bytecode y la JVM para ejecutarlo.
@@ -142,9 +142,10 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
        Otras herramientas: La terminal para usar los comandos javac y java.
 
 ### Código Fuente
-![Código Fuente Python] ./src/main.py
-![Código Fuente C] ./src/main.c
-![Código Fuente Java] ./src/Main.java
+- [Código Fuente Python](./src/main.py)
+- [Código Fuente C](./src/main.c)
+- [Código Fuente Java](./src/main.java)
+
 
 ### Ejemplos de Ejecución
 
@@ -152,19 +153,19 @@ Ejecución en Python:
 Entrada 1: ¿Cual es tu nombre?: **Dylan**
 Entrada 2: ¿En que año naciste?: **2007**
 Salida: Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: Python
-(./capturas/python.png)
+![Ejemplo de ejecución de Python](./capturas/python.png)
 
 Ejecución en C:
 Entrada 1: ¿Cual es tu nombre?: **Dylan**
 Entrada 2: ¿En que año naciste?: **2007**
 Salida: Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: C
-(./capturas/c.png)
+![Ejemplo de ejecución de C](./capturas/c.png)
 
 Ejecución en Java:
 Entrada 1: ¿Cual es tu nombre?: **Dylan**
 Entrada 2: ¿En que año naciste?: **2007**
 Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: Java
-(./capturas/java.png)
+![Ejemplo de ejecución de Java](./capturas/java.png)
 
 ### Resultados de Pruebas
 La funcionalidad del código se ha verificado mediante unas pruebas manuales para cada uno de los tres programas (Python, C y Java).
