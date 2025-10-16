@@ -149,22 +149,22 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
 
 ### Ejemplos de Ejecución
 
-Ejecución en Python:
-Entrada 1: ¿Cual es tu nombre?: **Dylan**
-Entrada 2: ¿En que año naciste?: **2007**
-Salida: Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: Python
+1. Ejecución en Python:
+ - Entrada 1: ¿Cual es tu nombre?: **Dylan**
+ - Entrada 2: ¿En que año naciste?: **2007**
+ - Salida: Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: Python
 ![Ejemplo de ejecución de Python](./capturas/python.png)
 
-Ejecución en C:
-Entrada 1: ¿Cual es tu nombre?: **Dylan**
-Entrada 2: ¿En que año naciste?: **2007**
-Salida: Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: C
+2. Ejecución en C:
+ - Entrada 1: ¿Cual es tu nombre?: **Dylan**
+ - Entrada 2: ¿En que año naciste?: **2007**
+ - Salida: Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: C
 ![Ejemplo de ejecución de C](./capturas/c.png)
 
-Ejecución en Java:
-Entrada 1: ¿Cual es tu nombre?: **Dylan**
-Entrada 2: ¿En que año naciste?: **2007**
-Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: Java
+3. Ejecución en Java:
+ - Entrada 1: ¿Cual es tu nombre?: **Dylan**
+ - Entrada 2: ¿En que año naciste?: **2007**
+ - Hola Dylan, tienes 18 años. Este programa está hecho en el lenguaje de programación: Java
 ![Ejemplo de ejecución de Java](./capturas/java.png)
 
 ### Resultados de Pruebas
