@@ -134,12 +134,12 @@ El objetivo de esta práctica es entender las diferencias entre tres tipos de le
    -    Otras herramientas: La terminal para compilar (gcc) y ejecutar el programa.
 
 3. Java:
-       Sistema operativo: Linux Mint
-       Editor de texto o IDE: Geany
-       Compilador/Intérprete: Se utilizó el JDK , que incluye el compilador javac para generar el bytecode y la JVM para ejecutarlo.
-       Depurador: No utilice.
-       Sistema de gestión de versiones: Git y GitHub.
-       Otras herramientas: La terminal para usar los comandos javac y java.
+   -   Sistema operativo: Linux Mint
+   -   Editor de texto o IDE: Geany
+   -   Compilador/Intérprete: Se utilizó el JDK , que incluye el compilador javac para generar el bytecode y la JVM para ejecutarlo.
+   -   Depurador: No utilice.
+   -   Sistema de gestión de versiones: Git y GitHub.
+   -   Otras herramientas: La terminal para usar los comandos javac y java.
 
 ### Código Fuente
 - [Código Fuente Python](./src/main.py)
