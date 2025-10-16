@@ -187,8 +187,8 @@ Este uno de los casos de prueba y este devuelve correctamente lo que tiene que d
 - Autorización de Permisos: Se ha verificado que el profesorado tiene permisos de lectura en el repositorio para la correcta evaluación de la práctica.
 
 ## Conclusiones
-Esta práctica permite ver las diferencias entre los paradigmas de compilación e interpretación. El desarrollo en C aunque más rápido en ejecución requiere una compilación explícita pero acosta de la portabilidad. Python permite rapidez de desarrollo gracias a su interpretación directa. Y Java se sitúa en un punto intermedio, ofreciendo la portabilidad gracias a la JVM, a costa de un proceso de dos pasos compilación a bytecode y ejecución.
+Esta práctica permite ver las diferencias entre los paradigmas de compilación e interpretación. El desarrollo en C aunque más rápido en ejecución necesita una compilación explícita pero acosta de la portabilidad. Python permite rapidez de desarrollo gracias a su interpretación directa. Y Java se sitúa en un punto intermedio, ofreciendo la portabilidad gracias a la JVM, a costa de un proceso de dos pasos compilación a bytecode y ejecución.
 
 ## Referencias y Fuentes
-w3schools.com
-revilofe.github.io/section3/
+- w3schools.com
+- revilofe.github.io/section3/
